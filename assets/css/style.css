@@ -189,14 +189,17 @@ header div img {
     display: inline
 }
 header {
-    text-align: left;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 header div {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 header nav {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 header nav li {
     display: table-cell;
